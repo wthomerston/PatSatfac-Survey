@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Patient Satisfaction Survey</title>
+    <link rel="stylesheet" href="../static/css/main.css">
+
+</head>
+<body>
+
+<div>
+
+<h1> Patient Experience Survery:</h1>
+<h2>Start</h2>
+
+</div>
+
+<div>
+
+<p>A. Are you completing this survery for yourself or for another person?</p>
+<input type="checkbox" id="completingMyself" value="completingMyself">
+<label for="completingMyself">I am completing this survey for myself</label>
+    <br>
+<input type="checkbox" id="completingForAnother" value="completingForAnother">
+<label for="completingForAnother">I am completing this survey for another person</label>
+
+</div>
+
+<div id="ifCompleteForAnother" style="display:none;">
+
+<p> B. If you are completing this survery for someone else, who are you completing it for?</p>
+<input type="checkbox" id="completeForFamFriend" value="completeForFamFriend">
+<label for="completingMyself">I am completing this survey for a family member or friend</label>
+    <br>
+<input type="checkbox" id="completingForPatientClient" value="completeForPatientClient">
+<label for="completingForAnother">I am completing this survey for the patient or client</label>
+    <br>
+<input type="checkbox" id="completingForOther" value="completeForOther">
+<label for="completingForAnother">Other (please specify your relationship with the patient, not your name):</label>
+<input type="text" id="completeForOtherInput" value="">
+
+</div>
+
+<a href="contacting_us.html"><button type="button">Next</button></a>
+
+</body>
+</html>

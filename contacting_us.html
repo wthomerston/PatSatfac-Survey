@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Patient Satisfaction Survey</title>
+    <link rel="stylesheet" href="../static/css/main.css">
+
+</head>
+<body>
+
+<div>
+
+<h1> Patient Experience Survery:</h1>
+<h2>Section 1: Contacting Us</h2>
+
+</div>
+
+<div>
+
+    <h3>Q1. How was the appointment for your most recent visit made?</h3>
+
+    <input type="checkbox" id= "noAppointment" value="noAppointment">
+    <label for="noAppointment">I didn't have an appointment-I just dropped-in (Skip ro Q2 B)</label>
+    <br>
+    <input type="checkbox" id= "phoneCallSetUp" value="phoneCallSetUp">
+    <label for="phoneCallSetUp">I called and set it up</label>
+    <br>
+    <input type="checkbox" id= "emailSetUp" value="emailSetUp">
+    <label for="emailSetUp">I emailed and set it up</label>
+    <br>
+    <input type="checkbox" id= "lastVisitSetUp" value="lastVisitSetUp">
+    <label for="lastVisitSetUp">I set it up at my last visit</label>
+    <br>
+    <input type="checkbox" id= "patientReceivedCallSetUp" value="patientReceivedCallSetUp">
+    <label for="patientReceivedCallSetUp">You called me to set it up</label>
+    <br>
+    <input type="checkbox" id= "otherSetUp" value="otherSetUp">
+    <label for="otherSetUp">Other (please specify): </label>
+
+    <input type="text" id= "otherSetUpInput" value="">
+
+
+    <h3>Q2. Thinking about your most recent visit, on a scale of poor to excellent, how would you rate the following...?</h3>
+
+    <p> a. The length of time it took between making your appointment and the visit you just had</p>
+    <p> b. Your <b><em>overall</em></b> experience accessing the office/clinic</p>
+
+    <table>
+
+        <tr>
+            <th id="firstColumn"></th>
+            <th>Poor</th>
+            <th>Fair</th>
+            <th>Good</th>
+            <th>Very Good</th>
+            <th>Excellent</th>
+        </tr>
+        <tr>
+            <td id="firstColumnA">a.</td>
+            <td><input type="radio" id="poorA" value="poor"></td>
+            <td><input type="radio" id="fairA" value="fair"></td>
+            <td><input type="radio" id="goodA" value="good"></td>
+            <td><input type="radio" id="veryGoodA" value="veryGood"></td>
+            <td><input type="radio" id="excellentA" value="excellent"></td>
+        </tr>
+        <tr>
+           <td id="firstColumnB">b.</td>
+            <td><input type="radio" id="poorB" value="poor"></td>
+            <td><input type="radio" id="fairB" value="fair"></td>
+            <td><input type="radio" id="goodB" value="good"></td>
+            <td><input type="radio" id="veryGoodB" value="veryGood"></td>
+            <td><input type="radio" id="excellentB" value="excellent"></td>
+        </tr>
+    </table>
+
+
+</div>
+
+<a href="arriving.html"><button type="button">Next</button></a>
+
+</body>
+</html>
